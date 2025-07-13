@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(builder: (_ , child) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'LoginScreen',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),

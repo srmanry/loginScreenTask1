@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 ThemeData lightTheme = ThemeData(
-  fontFamily: 'Roboto',
+
   primaryColor: const Color(0xFF235dff),
   brightness: Brightness.light,
   cardColor: const Color(0xFFFFFFFF),

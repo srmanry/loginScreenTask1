@@ -34,7 +34,7 @@ class LoginScreenView extends StatelessWidget {
                   validator: (value) => controller.validateEmail(value!),),
                SizedBox(height: 10.h),
 
-              Obx(() =>   TextFormField(
+              Obx(() =>  TextFormField(
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 controller: controller.passwordController,
                 obscureText: controller.obscurePassword.value,

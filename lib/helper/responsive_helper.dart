@@ -1,8 +1,6 @@
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:get/get.dart';
 
-
-
 class ResponsiveHelper {
 
   static bool get isMobilePhone => !kIsWeb;
